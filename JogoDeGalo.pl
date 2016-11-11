@@ -1,4 +1,4 @@
-/*------------------------------INICIAR O TABULEIRO DO JOGO----------*/
+/*------------------------------Start the table of game----------*/
 
 iniciatabuleiro([
 		[0,0,0],
@@ -8,7 +8,7 @@ iniciatabuleiro([
 
 /*--------------------------------------------------------------------*/
 
-/*VERICAR SE É MEMBRO*/
+/*Verify if is member*/
 
 member(X,[X|L]).
 member(X,[Y|L]):- X \== Y,
